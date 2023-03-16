@@ -1,58 +1,54 @@
-.menu{
-        
-    display:flex ;
-    justify-content:space-around ;
-    }
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-
-body {
-  background-color: black;
-  color: white;
-  background-size: 100px 100px;
-}
-
-.title  {
-  font-size: 3rem;
-  display: flex;
-  line-height: 5rem;
-  font-family: 'Permanent Marker', cursive;
-  letter-spacing: 0.3rem;
-}
-
-.title__highlight {
-  display: inline-block;
-  width: 5rem;
-  height: 5rem;
-  background-image: url(https://st3.depositphotos.com/15223308/17924/v/450/depositphotos_179240978-stock-illustration-anarchy-symbol-vector-file.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+.i.navegacion {
+  width: 1000px;
+  margin: 10px auto;
+ 
   
-  color: transparent;
   
-  margin-right: -0.5rem;
-  
-  transform: scaleX(-1);
-  mix-blend-mode: screen;
-}
-.title__highlight {
-    display: inline-block;
-    width: 5rem;
-    height: 5rem;
-    background-image: url(https://st3.depositphotos.com/15223308/17924/v/450/depositphotos_179240978-stock-illustration-anarchy-symbol-vector-file.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
-    color: transparent;
-    
-    margin-inline: -0.5rem;
-    
-    transform: scaleX(-1);
-    mix-blend-mode: screen;
   }
+  .navegacion ul {
+      list-style: none;
+      color: white;
+      }
   
+      
+  }
+  .menu >li a{
+     display: block;
+     padding:0px 18px;
+     font-family: open sans-serif;
+      text-decoration: none;
+      color: w;
+     
+ 
+      }
+      .menu :hover {
+       color: rgb(245, 240, 238); 
+       transition: all.3s;  
+      }
+body {
+  background-image: url(cover__photo.jpg);
+  background-repeat: no-repeat;
+  background-size: 375px 667px; /*Ifhone SE Size*/
+  background-attachment: fixed;
+  size:375px 667px ;
+}
+  h1{
+      color: white;
+  font-family: roboto;
+  padding-left: 70px;
+ 
+
+  }
+
+h2,h3 {
+  color: white;
+  font-family: roboto;
+
+padding-left: 40px;
+padding-top: 50px;
+
+ 
+  
+}
+
+
