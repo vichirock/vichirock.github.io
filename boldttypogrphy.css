@@ -1,4 +1,4 @@
-body {
+/* body  {
     background-image: url(UX\ Photosp\ example.jpg);
     background-repeat: no-repeat;
     
@@ -30,4 +30,24 @@ body {
     flex-direction: column;
     height: 100vh;
     justify-content: flex-end;   
+} */
+
+*{margin:0;padding:0;}
+body {
+  display: grid;
+  place-items: center;
+  background-color: #80e880;
+  color: #94452c;
+  padding-top: 10rem;
+}
+.title {
+  font-family: 'Righteous', cursive;
+  font-size: 120px;
+  letter-spacing: 4px; 
+  
+}
+.subtitle {
+  font-family: 'Cookie', cursive;
+  font-size: 80px;
+  width: fit-content;
 }
