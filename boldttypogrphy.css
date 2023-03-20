@@ -1,7 +1,7 @@
 body {
     background-image: url(UX\ Photosp\ example.jpg);
     background-repeat: no-repeat;
-    background-color: black;
+    
     background-size: 375px 667px; /*Ifhone SE Size*/
     background-attachment: fixed;
     size:375px 667px ;
@@ -10,11 +10,24 @@ body {
         color: white;
     font-family: roboto;
     padding-left: 70px;
-    font-weight: bolder;
+    
+    
+   font-weight: bold;
    
   
     }
   
   h2,h3 {
     color: white;
-    font-family: roboto;}
+    font-family: roboto;
+    font-weight: bold;
+   
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;   
+}
