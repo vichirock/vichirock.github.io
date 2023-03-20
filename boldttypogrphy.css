@@ -1,6 +1,7 @@
 body {
-    background-image: url(cover__photo.jpg);
+    background-image: url(UX\ Photosp\ example.jpg);
     background-repeat: no-repeat;
+    background-color: black;
     background-size: 375px 667px; /*Ifhone SE Size*/
     background-attachment: fixed;
     size:375px 667px ;
