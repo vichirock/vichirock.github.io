@@ -1,15 +1,17 @@
-.i.navegacion {
+.navegacion {
   width: 1000px;
   margin: 10px auto;
- 
-  
-  
-  }
+  color: white;
+ }
   .navegacion ul {
       list-style: none;
-      color: white;
+     
+    
       }
-  
+.menu
+  {
+    color: white;
+  }
       
   
   .menu >li a{
@@ -17,7 +19,8 @@
      padding:0px 18px;
      font-family: open sans-serif;
       text-decoration: none;
-      color: w;
+    
+      
      
  
       }
