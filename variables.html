@@ -7,26 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    <p>What are Variables?
-        Variables are containers for storing data (storing data values).
+    <h1> What are Variables?</h1>
+        <p>  Variables are containers for storing data (storing data values).</p>
+        <p id="demo">In this example, x, y, and z are variables.</p>
+        <p>var x = 5;
+            var y = 6;
+            var z = x + y;</p>
+
+            <h2>JavaScript const</h2>
+
+<p id="demo1">Declaring a constant array does NOT make the elements unchangeable:</p>
+
+ <p>// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+
+ <p>// Change an element:
+cars[0] = "Toyota";</p>
+
+<p> // Add an element:
+cars.push("Audi");</p>
+
+// Display the Array:
+document.getElementById("demo1").innerHTML = cars; </p>
+
+
+
+
+
         
-        In this example, x, y, and z, are variables, declared with the var keyword:
         
-        Example
-        var x = 5;
-        var y = 6;
-        var z = x + y;
-        In this example, x, y, and z, are variables, declared with the let keyword:
-        
-        Example
-        let x = 5;
-        let y = 6;
-        let z = x + y;
-        In this example, x, y, and z, are undeclared variables:
-        
-        Example
-        x = 5;
-        y = 6;
-        z = x + y;</p>
 </body>
+<script src="variables.js"></script>
 </html>
