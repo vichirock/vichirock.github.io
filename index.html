@@ -1,37 +1,76 @@
-<!DOCTYPE html>
+
+<!-- Tutorial URL: http://sixrevisions.com/css/responsive-background-image/ -->
+
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-    <title>AntonioPortfolie</title>
+<meta charset="utf-8">
+<title>Responsive Full Background Image</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Six Revisions">
+  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
+  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+ 
+
+ 
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="presentational-only/presentational-only.js"></script>
 </head>
 
 <body>
-   <header>
-    <nav class="navegacion">
-        <ul class="menu">
-        <ul>
-         <li> <a href="boldtypography.html">Boldt Typography</a></li> 
-        <li> <a href="hobby.html">Min Hobby</a></li> 
-         <li> <a href="photoshop.html">Photoshop</a></li> 
-         <li> <a href="example1JS.html">Numbers,JavaScript</a></li> 
-         <li> <a href="exampleJS2.html">Booleans,JavaScript</a></li> 
-         <li> <a href="examplesjavascript.html">Strings,JavaScript</a></li>
-
-        </ul>
+    <nav class="navbar" id="top">
+      <div class="inner">
+        <a href="http://sixrevisions.com/css/responsive-background-image/">Photoshop Examples</a>
+      </div>
     </nav>
-   </header>
-   <main class="container"> 
-   <H1>   Antonio Olivera</H1>
-    <h3> Læringsportfolio</H3>
-    
-    <h2>SoMe</h2>
-    <h2>Content Creator</h2>
-     <H2>UX-Designer</H2>   -
+    <header class="container">
+      <section class="content">
+        <h1>Antonio Olivera</h1>
+        <p class="sub-title"><strong>Content Creator- UX Design</strong> <br /> 2 Semester</p>
+        <p><a class="button" id="load-more-content" href="#top">JavaScript Examples</a></p>
+        <p>ERHVERVS AKADEMI SYDVEST</p>
         
-   </main>
-   
-</body>
+        <!-- Some content to demonstrate viewport scrolling behavior -->
+        <div id="more-content">
+          <p><br />Background image courtesy of <br /> <a href="http://unsplash.com/" target="_blank">Unsplash</a>.</p>
+          <blockquote>
+          Creating a goal-driven statement of what a product or application does results in better product experiences.
+          It meets expectations because it is focused on solving the problem it was created to address.
+          There is power in doing one thing and it doing it very well.
+          <cite>
+            Francisco Inchauste
+            From <a href="http://sixrevisions.com/usabilityaccessibility/creating-a-timeless-user-experience/" target="_blank">Creating a Timeless User Experience</a>
+          </cite>
+          </blockquote>
+          <blockquote>
+          Fitts' law is centered around a mathematical equation that is used to illustrate the time it takes to reach a target object.
+          A target object, in the context of UIs, can be any interactive element, such as a submit button, a hyperlink, and an input field in a web form.
+          The idea is this: The quicker you can reach a target object, the more convenient and easy it is to use.
+            <cite>
+            Jason Gross
+            From <a href="http://sixrevisions.com/usabilityaccessibility/improving-usability-with-fitts-law/" target="_blank">Improving Usability with Fitts' Law</a>
+            </cite>
+          </blockquote>
+          <blockquote>
+          Visual weight revolves around the idea that distinct elements in a design have varying heaviness relative to each other. 
+          Sometimes visual weight is obvious, such as in the case where larger objects appear heavier than smaller objects because they take up more space. 
+          In certain instances, it’s not so cut and dry, such as in the case of color. Some colors may look as if they are heavier and more dominant than others.
+            <cite>
+            Kayla Knight
+            From <a href="http://sixrevisions.com/graphics-design/visual-weight-designs/" target="_blank">Working with Visual Weight in Your Designs</a>
+            </cite>
+          </blockquote>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>
